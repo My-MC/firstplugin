@@ -4,3 +4,10 @@ main: plugin.my.firstplugin.Firstplugin
 api-version: 1.16
 authors: [ My ]
 description: This is my first plugin.
+commands:
+  test:
+    aliases: [ t, testest ]
+    description: Command description
+    permission: testplugin.command.test
+    permission-message: Permission denied
+    usage: Command usage
